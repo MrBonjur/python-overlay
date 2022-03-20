@@ -86,7 +86,7 @@ class Overlay:
 
         # get monitor size
         self.window_width = pygame.display.Info().current_w
-        self.window_height = pygame.display.Info().current_w
+        self.window_height = pygame.display.Info().current_h
 
         # fix black flashing (start point)
         os.environ['SDL_VIDEO_WINDOW_POS'] = str(self.window_width) + "," + str(self.window_height)
